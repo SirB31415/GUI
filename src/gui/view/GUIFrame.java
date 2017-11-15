@@ -15,11 +15,12 @@ public class GUIFrame extends JFrame
 		super();
 		this.appController = appController;
 		this.appPanel = new GUIPanel(appController);
+		
 		setupFrame();
 	}
 	private void setupFrame()
 	{
-//This is preferrably the first line of setupFrame
+//This is preferably the first line of setupFrame
 		this.setContentPane(appPanel);
 		this.setTitle("Window title will go here");
 		this.setSize(500,500);
